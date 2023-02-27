@@ -1,3 +1,11 @@
+<!--
+ * @Author: wwk123 m17600463015@163.com
+ * @Date: 2023-02-14 22:48:05
+ * @LastEditors: wwk123 m17600463015@163.com
+ * @LastEditTime: 2023-02-19 10:42:05
+ * @FilePath: \mammoth.js\browser-demo\index.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <!DOCTYPE html>
 <html>
   <head>
@@ -13,9 +21,10 @@
     </div>
     <div class="container">
       <input id="document" type="file" />
+      <button id="btn">获取ast</button>
       <div class="row">
         <div class="span8">
-          <div id="output" class="well">
+          <div id="output" contenteditable="true" class="well">
           </div>
         </div>
         <div class="span4">
@@ -23,10 +32,12 @@
           <div id="messages">
           </div>
         </div>
+      </div>
     </div>
-    
     <script src="../mammoth.browser.js"></script>
-    <script src="demo.js"></script>
+    <script src="ast.js"></script>
+    <script type="module" src="ast/index.js"></script>
+    <script type="module" src="demo.js"></script>
   </body>
 </html>
 

@@ -36,7 +36,8 @@ body {
 }
 
 .span8 {
-    width: 620px;
+    width: 21cm;
+    height: 29.7cm;
 }
 
 .span4 {
@@ -44,7 +45,7 @@ body {
 }
 
 .well {
-    background-color: #f2f2f2;
+    background-color: #fff;
     border: 1px solid #ccc;
     padding: 1em;
     min-height: 200px;
@@ -52,4 +53,10 @@ body {
 
 .messages .warning {
     color: #cc6600;
+}
+
+strong[data-styleid='方正行楷简体-42'] {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }
